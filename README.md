@@ -8,7 +8,7 @@ Here I took the newest data, which are from 2020, to analyze and learn from. Spe
 
 Data Resource: https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 
-Fore the final result, a Random Forest model is chosen as the best among all of the classifiers, compared with other models which utilize Gradient Boosting, Bagging, Decision Tree and Adaptive Boosting techniques. For evaluation on test set, it has a high AUC of 0.842 and AP of 0.827.
+For the final result, a Random Forest model is chosen as the best among all of the classifiers, compared with other models which utilize Gradient Boosting, Bagging, Decision Tree and Adaptive Boosting techniques. For evaluation on test set, it has a high AUC of 0.842 and AP of 0.827.
 
 The drawback of the project is that the false negative rate (0.191) is not as low as what we expected. Relatively inaccurate results like this may give patients a false sense of security, leading them to become lax about dieting and exercising. To deal with this, some future work needs to be done. For example, the adjustments could be: 1. use oversampling instead of undersampling to get more datapoints, which might benefit model training, tuning, evaluating and predicting. 2. perform analysis first to narrow down the number of variables (e.g. PCA), and select more proper features with heart disease to optimize the models.
 
